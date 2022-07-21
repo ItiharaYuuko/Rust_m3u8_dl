@@ -1,0 +1,11 @@
+[package]
+name = "rust_m3u8_dl"
+version = "0.1.27"
+edition = "2021"
+authors = ["ItiharaYuuko <wert3714@yahoo.com>"]
+
+[dependencies]
+reqwest = { version = "0.11", features = ["multipart"] }
+tokio = { version = "1", features = ["full"] }
+url = "2.2.2"
+regex = "1.5.4"
